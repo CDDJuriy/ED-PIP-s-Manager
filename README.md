@@ -7,6 +7,7 @@ Switching the key [F1] changes your PIP's from 420 to 240 and back again.
 The 240 mode is very useful when cruising.
 The 420 mode may be needed when manually boarding planets or ports.
 ;==================================================
+
 sewmode := ["240", "420"]	;sewmode[1] := 240 For max speed
 				;sewmode[2] := 420 For max shields
 It's different when you're in combat mode. For this mode, I set the [NumLock] button.
