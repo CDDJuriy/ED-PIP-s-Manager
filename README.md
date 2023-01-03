@@ -2,18 +2,20 @@
 "Smart" (intelligent) PIP-manager. (AHK script)
 Hello, friends! In connection with the New Year, I want to make a gift. Namely, a macro for PIP.
 So, my script:
-1. In normal mode it is no different from many similar ones. Switching the key [F1] changes your PIP's from 420 to 240 and back again.
-The 240 mode is very useful when cruising. The 420 mode may be needed when manually boarding planets or ports.
+1. In normal mode it is no different from many similar ones.
+Switching the key [F1] changes your PIP's from 420 to 240 and back again.
+The 240 mode is very useful when cruising.
+The 420 mode may be needed when manually boarding planets or ports.
 ;==================================================
-sewmode := ["240", "420"]	;sewmode[1] := 240 ; Default SEW=[2-4-0] For max speed
-				                  ;sewmode[2] := 420 ; Alternative SEW=[4-2-0] For max shields
+sewmode := ["240", "420"]	;sewmode[1] := 240 For max speed
+				;sewmode[2] := 420 For max shields
 It's different when you're in combat mode. For this mode, I set the [NumLock] button.
 2. In [NumLock] mode, you get new features: switching PIP's to WEP for a short time when firing.
 For [Combat mode: oN] you must select the most realistic PIP's and recharge time parameters.
 ;==================================================
 ; The [SYS-ENG-WEP] value when fired.
-wep1 := ["024", "204"]	; The [SEW] value for prim.group in the sewmode[1], sewmode[2].
-wep2 := ["024", "204"]	; The [SEW] value for sec.group in the sewmode[1], sewmode[2].
+wep1 := ["024", "204"]	; [SEW] value for prim.group in the sewmode[1], sewmode[2].
+wep2 := ["024", "204"]	; [SEW] value for sec.group in the sewmode[1], sewmode[2].
 ;==================================================
 ; Charging time [WEP] after a shot (msec).
 time1 := [2500, 2500] ; for prim.group in the sewmode[1], sewmode[2].
