@@ -77,5 +77,11 @@ Key "F6" - switching of alternative control
 
 Key "NumLock" - switch Combat mode oN-oFF
 
+Files:
+
+PIP_CobraV3.ahk  AutuHotKey script
+
+Mouse -rel.py  Improved script for FreePIE and VJoy
+
 
 Good luck! 
