@@ -62,12 +62,20 @@ In the ED control settings, I use "alternate control". Key [F6].
 Here I use a great script for VJoy by Andrea Spada. https://www.reddit.com/r/EliteDangerous/comments/d3xu04/relative_mouse_mod_guide/
 
 The keys I used:
+
 LeftMouseBut - Prim.Fire
+
 RightMouseBut - Sec.Fire
+
 Key "T" - Targeting
+
 Key "Space" - FA oN-oFF
+
 Key "F1" - Switching 420-240
+
 Key "F6" - switching of alternative control
+
 Key "NumLock" - switch Combat mode oN-oFF
+
 
 Good luck! 
